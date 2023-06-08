@@ -1,0 +1,273 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  display:flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap:50px;
+  font-size: larger;
+  
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url('promineImgs/teamspirit1.jpg');
+  background-size: cover;
+  height:900px;
+   background-position: center;
+  text-align: center;
+  color: #070007fd;
+  padding: 100px 0;
+
+}
+
+.hero2 {
+  background-image: url('promineImgs/officepeople1.jpg');
+  background-size: cover;
+  height:900px;
+   background-position: center;
+  text-align: center;
+  color: #070007fd;
+  padding: 100px 0;
+
+}
+.meetteam{
+  margin:20px;
+  padding:20px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  background-color: #f8cc0507;
+  flex-direction:column;
+  line-height: 30px;
+ 
+}
+
+.meetteamph1 p{
+padding:25px;
+margin:20px;
+font-size: 15px;
+
+}
+
+.meetteamph1 h1{
+border-bottom:.5px inset rgba(165, 142, 42, 0.84);
+border-radius:100%; color:rgb(95, 48, 1);
+text-align: center;
+}
+
+.executives_staff{
+  display:flex;
+  flex-direction:column;
+}
+
+.executives{
+  display:flex;
+  flex-direction: row;
+ 
+}
+.staff{
+ display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:10px
+ }
+
+ .aboutimgstaff{
+  box-shadow: 2px 3px 5px  rgba(0, 0, 0, 0.374);
+  padding:10px;
+  width:200px;
+
+}
+
+.aboutimgstaff img{
+  width:100%
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.services {
+  background-color: #f5f5f5;
+  padding:10px; 
+ 
+}
+
+section h2{
+  text-align: center;
+}
+.sec2 p{
+  font-size:17px
+}
+
+cite{
+  color:brown;
+
+}
+.aboutimg{
+  box-shadow: 2px 3px 5px  rgba(0, 0, 0, 0.374);
+  padding:20px;
+  width:300px;
+
+}
+.aboutimg img{
+  width:100%;
+
+}
+
+.sectionPositions{
+ margin:15px;
+display: flex;
+justify-content: center;
+padding:16px;
+background-color: rgba(240, 248, 255, 0.215);
+}
+.sectionCeo {
+margin:15px;
+padding:20px;
+transition: all 1.5s 
+}
+.sectionCeo:hover{
+ transform: scale(1.04);
+
+}
+
+.sectionMd {
+margin:15px;
+padding:20px;
+transition: all 1.5s 
+}
+
+.sectionMd:hover{
+ transform: scale(1.04);
+
+}
+.sectionDir {
+margin:15px;
+padding:20px;
+transition: all 1.5s 
+}
+.sectionDir:hover{
+ transform: scale(1.04);
+
+}
+
+.sectionCeo2{
+  margin:15px;
+display: flex;
+border:1px solid red;
+justify-content: center;
+}
+
+.section a{
+text-decoration: none;
+color:black;
+text-align: center;
+}
+.section p{
+  text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+header{
+  flex-direction: column;
+  font-size: small;
+}
+.hero{
+  height:auto
+}
+.sec2{
+  padding:10px;
+  font-size: 15px;;
+}
+
+.hero h2{
+font-size: 30px;
+}
+  .sec2 p{
+    font-size: 15px;
+    text-align: justify;}
+    .sectionPositions{
+     flex-direction: column;
+     justify-content:center;
+  }
+
+  .hero2{
+    height:auto;
+    width:100%;
+
+  }
+  .meetteamph1{
+  text-align:center justify;
+  font-size:20px;
+  font-family:sans-serif
+}
+
+.aboutimg{
+  box-shadow: 2px 3px 5px  rgba(0, 0, 0, 0.374);
+  padding:20px;
+  width:300px;
+}
+
+.meetteamph1{
+  line-height: none;
+  text-align: justify;
+}
+
+.meetteamph1 h1{
+font-size: 30px;
+}
+.meetteamph1 p{
+font-size: 15px;;
+padding:0px;
+margin:0px;
+line-height:20px;
+text-align: center justify;
+}
+
+header{
+width:450px
+}
+
+  }
+
+
+
+  
