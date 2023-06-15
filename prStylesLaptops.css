@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* border:1px solid red; */
 }
 body {
   font-family: Arial, sans-serif;
@@ -278,7 +279,8 @@ body {
 }
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items:center;
   background-color: rgb(234, 234, 250);
   color: rgb(6, 0, 0);
   padding: 40px;
